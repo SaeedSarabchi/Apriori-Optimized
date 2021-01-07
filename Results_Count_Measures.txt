@@ -1,0 +1,34 @@
+///////////////////////////////////////////
+Compiled using the command below:
+g++ -O2  -std=c++11  Apriori.cpp
+/////////////////////////////////////////////////////////////////
+Test Machine Spec: Ubuntu 16.04 VM, CPU Cores:2, 2893 MHz, 4G RAM.
+/////////////////////////////////////////////////////////////////
+Results for 100 Transaction case:
+
+Number of frequent 1_itemsets: 10
+Number of association rules  : 0
+Execution Time               : 0.08 Seconds
+///////////////////////////////////////////
+Results for 1000 Transaction case:
+
+Number of frequent 1_itemsets: 334
+Number of frequent 2_itemsets: 174
+Number of association rules  : 0
+Execution Time               : 0.25 Seconds
+///////////////////////////////////////////
+Results for 10000 Transaction case:
+
+Number of frequent 1_itemsets: 472
+Number of frequent 2_itemsets: 24085
+Number of frequent 3_itemsets: 8049
+Number of frequent 4_itemsets: 3786
+Number of frequent 5_itemsets: 2329
+Number of frequent 6_itemsets: 1115
+Number of frequent 7_itemsets: 407
+Number of frequent 8_itemsets: 111
+Number of frequent 9_itemsets: 21
+Number of frequent 10_itemsets: 2
+Number of association rules  : 161856
+Execution Time               : 9.96 Seconds
+////////////////////////////////////////////
